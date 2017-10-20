@@ -7,7 +7,7 @@ int main()
 int rows;
 int cols;
 vector < vector<char> > stars;
-cout<<"Enter rows and coloumns of stars:"<<endl;
+cout<<"Enter rows and columns of stars:"<<endl;
 cin>>rows;
 cin>>cols; 
     if(rows > 0 && cols > 0)
