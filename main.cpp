@@ -7,11 +7,9 @@ int main()
 int rows;
 int cols;
 vector < vector<char> > stars;
-cout<<"Please enter the number of rows you would like."<<endl;
+cout<<"Enter rows and coloumns of stars:"<<endl;
 cin>>rows;
-cout<<"Please enter the number of columns you would like."<<endl;
-cin>>cols;
-    
+cin>>cols; 
     if(rows > 0 && cols > 0)
     {
         stars.resize(rows);
